@@ -58,8 +58,6 @@ Ferramentas auxiliares: ESLint (frontend), `appsettings.json` / `launchSettings.
 
 4. O arquivo SQLite é criado conforme a connection string em `appsettings.json` (chave `ConnectionStrings:DefaultConnection`; no repositório aparece como `Data Source=booking.db` na raiz de execução da API).
 
-> **Segurança:** chaves JWT e connection strings não devem ir para produção exatamente como em `appsettings.json` do repositório de estudo. Use [User Secrets](https://learn.microsoft.com/aspnet/core/security/app-secrets) ou variáveis de ambiente em ambientes reais.
-
 ---
 
 ## Instruções para execução do frontend
